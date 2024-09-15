@@ -59,7 +59,5 @@ restaurants: Stores basic restaurant information. The uid column is unique.
 booking: Stores future bookings for each restaurant. Old bookings (7+ days) are deleted on each run.
 availability: Stores availability data for each restaurant based on provided languages.
 Logging
-The script logs every action and error with timestamps to the logs/output.log file. This is helpful for tracking the process and debugging.
+The script logs every action and error with timestamps to the logs/output.log file. This helps track the process and debugging.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
