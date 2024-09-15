@@ -24,7 +24,7 @@ Copy code
 npm install pg fs path
 Set up your PostgreSQL connection:
 
-# Update the connectionString with your PostgreSQL credentials in the script:
+Update the connectionString with your PostgreSQL credentials in the script:
 javascript
 Copy code
 const connectionString = `postgresql://postgres:PASSWORD@localhost:5432/SCHEMA_NAME?schema=${schemaName}`;
