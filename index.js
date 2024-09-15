@@ -3,9 +3,9 @@ const FormitableAPI = require('./FormitableAPI');
 const fs = require('fs');
 const path = require('path');
 
-const schemaName = 'middelburg';
-const connectionString = `postgresql://postgres:DX7)6Qb!HW5Wf2S*@localhost:5432/centaur?schema=${schemaName}`;
-const apiKey = 'CTc3hCbkrz4nR7mms0NeBQFAaXbBFCZ3bO8s47Giez4=';
+const schemaName = 'YOUR_SCHEMA_NAME';
+const connectionString = `postgresql://postgres:PASSWORD@localhost:5432/SCHEMA_NAME?schema=${schemaName}`;
+const apiKey = 'YOUR_API_KEY';
 
 // Define the log file path
 const logFilePath = path.join(__dirname, 'logs', 'output.log');
